@@ -1,0 +1,44 @@
+{
+  "basics": {
+    "name": "Juan Pablo González Aguilera",
+    "image": ""
+  },
+  "work": [
+    {
+      "name": "University of Chicago",
+      "position": "Graduate Research Assistant",
+      "startDate": "2020"
+    },
+    {
+      "name": "University of Chicago",
+      "position": "Graduate Teaching Assistant",
+      "startDate": "2020"
+    },
+    {
+      "name": "Cornell University",
+      "position": "Postbaccaulaureate Research Scholar",
+      "startDate": "2019",
+      "endDate": "2020"
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "University of Chicago",
+      "studyType": "PhD in Physics",
+      "startDate": "2022"
+    },
+    {
+      "institution": "University of Chicago",
+      "studyType": "MSc in Physics",
+      "startDate": "2020",
+      "endDate": "2022"
+    },
+    {
+      "institution": "Universidad de Los Andes",
+      "studyType": "BSc in Physics (summa cum laude)",
+      "startDate": "2016",
+      "endDate": "2019"
+    }
+  ]
+}
