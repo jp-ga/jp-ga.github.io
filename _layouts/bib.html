@@ -2,30 +2,18 @@
 ---
 <!-- _layouts/bib.html -->
       <div class="row">
-<<<<<<< HEAD
-        <div class="col-sm-2 {% if entry.preview %}preview{% else %}abbr{% endif %}">
-        {%- if entry.preview -%}
-          {% if entry.preview contains '://' -%}
-          <img data-zoomable class="preview z-depth-1 rounded" src="{{ entry.preview }}">
-=======
         {%- if site.enable_publication_thumbnails -%}
         <div class="col-sm-2 {% if entry.preview %}preview{% else %}abbr{% endif %}">
         {%- if entry.preview -%}
           {% if entry.preview contains '://' -%}
           <img class="preview z-depth-1 rounded" src="{{ entry.preview }}">
->>>>>>> master-update
           {%- else -%}
             {%- assign entry_path = entry.preview | prepend: '/assets/img/publication_preview/' -%}
             {% include figure.html
             path=entry_path
-<<<<<<< HEAD
-            class="preview z-depth-1 rounded"
-            zoomable=true
-=======
             sizes = "200px"
             class="preview z-depth-1 rounded"
             zoomable=false
->>>>>>> master-update
             alt=entry.preview -%}
           {%- endif -%}
         {%- elsif entry.abbr -%}
@@ -40,16 +28,10 @@
           {%- endif -%}
         {%- endif -%}
         </div>
-<<<<<<< HEAD
-
-        <!-- Entry bib key -->
-        <div id="{{entry.key}}" class="col-sm-8">
-=======
         {%- endif -%}
 
         <!-- Entry bib key -->
         <div id="{{entry.key}}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
->>>>>>> master-update
         <!-- Title -->
         <div class="title">{{entry.title}}</div>
         <!-- Author -->
@@ -183,12 +165,9 @@
             <a href="{{ entry.supp | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Supp</a>
             {%- endif %}
           {%- endif %}
-<<<<<<< HEAD
-=======
           {%- if entry.video %}
             <a class="abstract btn btn-sm z-depth-0" role="button">Video</a>
           {%- endif %}
->>>>>>> master-update
           {%- if entry.blog %}
             <a href="{{ entry.blog }}" class="btn btn-sm z-depth-0" role="button">Blog</a>
           {%- endif %}
@@ -213,18 +192,12 @@
             <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
           {%- endif %}
           </div>
-<<<<<<< HEAD
-          {% if site.badges %}
-          <div class="badges">
-            {%- if site.badges.altmetric_badge %}
-=======
           {% if site.enable_publication_badges %}
           {% assign entry_has_altmetric_badge = entry.altmetric or entry.doi or  entry.eprint or entry.pmid or entry.isbn %}
           {% assign entry_has_dimensions_badge = entry.dimensions or entry.doi or entry.pmid %}
           {% if entry_has_altmetric_badge or entry_has_dimensions_badge %}
           <div class="badges">
             {%- if site.enable_publication_badges.altmetric and entry_has_altmetric_badge %}
->>>>>>> master-update
             <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"
               {% if entry.eprint %}
                 data-arxiv-id="{{ entry.eprint }}"
@@ -239,11 +212,7 @@
               {% endif %}
               ></span>
             {%- endif %}
-<<<<<<< HEAD
-            {%- if site.badges.dimensions_badge %}
-=======
             {%- if site.enable_publication_badges.dimensions and entry_has_dimensions_badge %}
->>>>>>> master-update
               <span class="__dimensions_badge_embed__"
               {% if entry.doi %}
                 data-doi="{{ entry.doi }}"
@@ -256,10 +225,7 @@
             {%- endif %}
           </div>
           {%- endif %}
-<<<<<<< HEAD
-=======
           {%- endif %}
->>>>>>> master-update
 
           {% if entry.abstract -%}
           <!-- Hidden abstract block -->
@@ -274,8 +240,6 @@
             {% highlight bibtex %}{{ entry.bibtex | hideCustomBibtex }}{% endhighlight %}
           </div>
           {%- endif %}
-<<<<<<< HEAD
-=======
 
           {% if entry.video -%}
           <!-- Hidden video block -->
@@ -284,6 +248,5 @@
           </div>
           {%- endif -%}
 
->>>>>>> master-update
         </div>
       </div>

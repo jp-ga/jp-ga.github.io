@@ -8,21 +8,15 @@ let toggleTheme = (theme) => {
   }
 };
 
-<<<<<<< HEAD
-=======
 
->>>>>>> master-update
 let setTheme = (theme) => {
   transTheme();
   setHighlight(theme);
   setGiscusTheme(theme);
-<<<<<<< HEAD
-=======
   // if mermaid is not defined, do nothing
   if (typeof mermaid !== 'undefined') {
     setMermaidTheme(theme);
   }
->>>>>>> master-update
 
   if (theme) {
     document.documentElement.setAttribute("data-theme", theme);
@@ -67,10 +61,7 @@ let setTheme = (theme) => {
   }
 };
 
-<<<<<<< HEAD
-=======
 
->>>>>>> master-update
 let setHighlight = (theme) => {
   if (theme == "dark") {
     document.getElementById("highlight_theme_light").media = "none";
@@ -81,10 +72,7 @@ let setHighlight = (theme) => {
   }
 };
 
-<<<<<<< HEAD
-=======
 
->>>>>>> master-update
 let setGiscusTheme = (theme) => {
   function sendMessage(message) {
     const iframe = document.querySelector("iframe.giscus-frame");
@@ -99,8 +87,6 @@ let setGiscusTheme = (theme) => {
   });
 };
 
-<<<<<<< HEAD
-=======
 
 let addMermaidZoom = (records, observer) => {
   var svgs = d3.selectAll(".mermaid svg");
@@ -144,7 +130,6 @@ let setMermaidTheme = (theme) => {
 };
 
 
->>>>>>> master-update
 let transTheme = () => {
   document.documentElement.classList.add("transition");
   window.setTimeout(() => {
@@ -152,10 +137,7 @@ let transTheme = () => {
   }, 500);
 };
 
-<<<<<<< HEAD
-=======
 
->>>>>>> master-update
 let initTheme = (theme) => {
   if (theme == null || theme == "null") {
     const userPref = window.matchMedia;
@@ -167,9 +149,6 @@ let initTheme = (theme) => {
   setTheme(theme);
 };
 
-<<<<<<< HEAD
-initTheme(localStorage.getItem("theme"));
-=======
 
 initTheme(localStorage.getItem("theme"));
 
@@ -181,4 +160,3 @@ document.addEventListener('DOMContentLoaded', function() {
         toggleTheme(localStorage.getItem("theme"));
     });
 });
->>>>>>> master-update

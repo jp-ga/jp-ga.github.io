@@ -2,31 +2,6 @@
 layout: default
 ---
 <!-- page.html -->
-<<<<<<< HEAD
-        <div class="post">
-
-          <header class="post-header">
-            <h1 class="post-title">{{ page.title }}</h1>
-            <body class="post-description">{{ page.description }}</body>
-          </header>
-
-          <article>
-            {{ content }}
-          </article>
-
-          {%- if page.related_publications != null and page.related_publications.size > 0 -%}
-          {% assign publications = page.related_publications | replace: ", ", "," | split: "," | join: "|" %}
-          <h2>References</h2>
-          <div class="publications">
-            {% bibliography -f {{ site.scholar.bibliography }} -q @*[key^={{ publications }}]* %}
-          </div>
-          {%- endif %}
-
-          {%- if site.giscus.repo and page.giscus_comments -%}
-            {% include giscus.html %}
-          {%- endif -%}
-        </div>
-=======
 <div class="post">
 
   <header class="post-header">
@@ -50,4 +25,3 @@ layout: default
     {% include giscus.html %}
   {%- endif -%}
 </div>
->>>>>>> master-update
