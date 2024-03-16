@@ -5,8 +5,4 @@ inline: true
 related_posts: false
 ---
 
-<<<<<<< HEAD
-I have created this personal website. Welcome! 👋 
-=======
 I have created this personal website! Welcome ☺️ 
->>>>>>> master-update

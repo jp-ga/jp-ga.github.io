@@ -7,20 +7,6 @@ first_name: Juan Pablo
 middle_name:
 last_name: Gonzalez-Aguilera
 email: jpga@uchicago.edu
-<<<<<<< HEAD
-description: # the ">" symbol means to ignore newlines until "footer_text:"
-  Physics and ML enthusiast. Website under development. 
-footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: # add your own keywords or leave empty
-
-lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: 🎓  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
-
-url: https://jp-ga.github.io # the base hostname & protocol for your site
-baseurl: # the subpath of your site, e.g. /blog/
-=======
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
@@ -33,7 +19,6 @@ icon: ⚛  # the emoji used as the favicon (alternatively, provide image name in
 
 url: jp-ga.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
->>>>>>> master-update
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
@@ -41,22 +26,11 @@ impressum_path:  # set to path to include impressum link in the footer, use the 
 # Theme
 # -----------------------------------------------------------------------------
 
-<<<<<<< HEAD
-# code highlighter theme
-highlight_theme_light: github   # https://github.com/jwarby/jekyll-pygments-themes
-highlight_theme_dark: native    # https://github.com/jwarby/jekyll-pygments-themes
-
-=======
->>>>>>> master-update
 # repo color theme
 repo_theme_light: default       # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_theme_dark: dark           # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_trophies:
-<<<<<<< HEAD
-  enabled: true
-=======
   enabled: false
->>>>>>> master-update
   theme_light: flat    # https://github.com/ryo-ma/github-profile-trophy
   theme_dark: gitdimmed  # https://github.com/ryo-ma/github-profile-trophy
 
@@ -84,10 +58,7 @@ max_width: 800px
 # Open Graph & Schema.org
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
-<<<<<<< HEAD
-=======
 # see https://schema.org/docs/faq.html for more information
->>>>>>> master-update
 serve_og_meta: false # Include Open Graph meta tags in the HTML head
 serve_schema_org: false # Include Schema.org in the HTML head
 og_image: # The site-wide (default for all links) Open Graph preview image
@@ -98,11 +69,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 
 github_username: jp-ga # your GitHub user name
 gitlab_username: # your GitLab user name
-<<<<<<< HEAD
-twitter_username: # your Twitter handle
-=======
 x_username: # your X handle
->>>>>>> master-update
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 linkedin_username: jp-ga # your LinkedIn user name
 telegram_username: # your Telegram user name
@@ -136,30 +103,19 @@ discord_id: # your discord id (18-digit unique numerical identifier)
 zotero_username: # your zotero username
 wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 
-<<<<<<< HEAD
-contact_note: >
-  
-=======
 contact_note: #>
 #  You can even add a little note about which of these is the best way to reach you.
->>>>>>> master-update
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
 # -----------------------------------------------------------------------------
 
-<<<<<<< HEAD
-google_analytics:  # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
-cronitor_analytics:  # cronitor RUM analytics site ID (format: XXXXXXXXX)
-
-=======
 # For Google Analytics, see https://support.google.com/analytics/answer/10447272?hl=en&ref_topic=14088998&sjid=5129943941510317771-SA#zippy=%2Cgoogle-sites
 # and follow the instructions for Google Sites. You will need to create a Google Analytics property and copy the Google tag ID.
 google_analytics:  # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
 cronitor_analytics:  # cronitor RUM analytics site ID (format: XXXXXXXXX)
 
 # For Google Search Console, see https://support.google.com/webmasters/answer/9008080?hl=en#meta_tag_verification&zippy=%2Chtml-tag
->>>>>>> master-update
 google_site_verification:  # your google-site-verification ID (Google Search Console)
 bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 
@@ -167,9 +123,6 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-<<<<<<< HEAD
-
-=======
 blog_name: al-folio # blog_name will be displayed in your blog page
 blog_description: a simple whitespace theme for academics
 permalink: /blog/:year/:title/
@@ -207,7 +160,6 @@ disqus_shortname: al-folio # put your disqus shortname
 external_sources:
   - name: medium.com
     rss_url: https://medium.com/@al-folio/feed
->>>>>>> master-update
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -229,11 +181,7 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-<<<<<<< HEAD
-  enabled: false
-=======
   enabled: true
->>>>>>> master-update
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 
@@ -269,10 +217,6 @@ keep_files:
 # Plug-ins
 plugins:
   - jekyll-archives
-<<<<<<< HEAD
-  - jekyll-diagrams
-=======
->>>>>>> master-update
   - jekyll-email-protect
   - jekyll-feed
   - jekyll-get-json
@@ -294,12 +238,9 @@ defaults:
     values:
       sitemap: false
 
-<<<<<<< HEAD
-=======
 sass:
   style: compressed
 
->>>>>>> master-update
 # -----------------------------------------------------------------------------
 # Jekyll Minifier
 # -----------------------------------------------------------------------------
@@ -313,8 +254,6 @@ jekyll-minifier:
 # Jekyll Archives
 # -----------------------------------------------------------------------------
 
-<<<<<<< HEAD
-=======
 jekyll-archives:
   enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
   layouts:
@@ -328,7 +267,6 @@ jekyll-archives:
 
 display_tags: ['formatting', 'images', 'links', 'math', 'code'] # these tags will be displayed on the front page of your blog
 display_categories: ['blockquotes'] # these categories will be displayed on the front page of your blog
->>>>>>> master-update
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
@@ -361,19 +299,6 @@ scholar:
   group_by: year
   group_order: descending
 
-<<<<<<< HEAD
-badges: # Display different badges for your publications
-  altmetric_badge: false # Altmetric badge (https://www.altmetric.com/products/altmetric-badges/)
-  dimensions_badge: false # Dimensions badge (https://badge.dimensions.ai/)
-
-# Filter out certain bibtex entry keywords used internally from the bib output
-filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website, preview, altmetric]
-
-# Maximum number of authors to be shown for each publication (more authors are visible on click)
-max_author_limit:   # leave blank to always show all authors
-more_authors_animation_delay: 10  # more authors are revealed on click using animation; smaller delay means faster animation
-
-=======
 # Display different badges withs stats for your publications
 enable_publication_badges:
   altmetric: true # Altmetric badge (https://www.altmetric.com/products/altmetric-badges/)
@@ -388,7 +313,6 @@ more_authors_animation_delay: 10  # more authors are revealed on click using ani
 
 # Enables publication thumbnails. If disabled, none of the publications will display thumbnails, even if specified in the bib entry.
 enable_publication_thumbnails: true
->>>>>>> master-update
 
 # -----------------------------------------------------------------------------
 # Jekyll Link Attributes
@@ -406,11 +330,8 @@ external_links:
 # Responsive WebP Images
 # -----------------------------------------------------------------------------
 
-<<<<<<< HEAD
-=======
 # MAKE SURE imagemagick is installed and on your PATH before enabling imagemagick. In a terminal, run:
 #   convert -version
->>>>>>> master-update
 imagemagick:
   enabled: true # enables responsive images for your site (recommended, see https://github.com/alshedivat/al-folio/issues/537)
   widths:
@@ -424,22 +345,9 @@ imagemagick:
     - ".jpeg"
     - ".png"
     - ".tiff"
-<<<<<<< HEAD
-  output_formats:
-    webp: "-resize 800x"
-
-# -----------------------------------------------------------------------------
-# Jekyll Diagrams
-# -----------------------------------------------------------------------------
-
-jekyll-diagrams:
-    # configuration, see https://github.com/zhustec/jekyll-diagrams.
-    # feel free to comment out this section if not using jekyll diagrams.
-=======
     - ".gif"
   output_formats:
     webp: "-quality 85"
->>>>>>> master-update
 
 
 # -----------------------------------------------------------------------------
@@ -447,29 +355,15 @@ jekyll-diagrams:
 # -----------------------------------------------------------------------------
 
 enable_google_analytics:    false  # enables google analytics
-<<<<<<< HEAD
-enable_cronitor_analytics: false  # enables cronitor RUM analytics
-=======
 enable_cronitor_analytics:  false  # enables cronitor RUM analytics
->>>>>>> master-update
 enable_google_verification: false  # enables google site verification
 enable_bing_verification:   false  # enables bing site verification
 enable_masonry:             true   # enables automatic project cards arrangement
 enable_math:                true   # enables math typesetting (uses MathJax)
-<<<<<<< HEAD
-enable_tooltips:            false  # enables automatic tooltip links generated
-                                   # for each section titles on pages and posts
-enable_darkmode:            true   # enables switching between light/dark modes
-enable_navbar_social:       false  # enables displaying social links in the
-                                   # navbar on the about page
-enable_project_categories:  true   # enables categorization of projects into
-                                   # multiple categories
-=======
 enable_tooltips:            false  # enables automatic tooltip links generated for each section titles on pages and posts
 enable_darkmode:            true   # enables switching between light/dark modes
 enable_navbar_social:       false  # enables displaying social links in the navbar on the about page
 enable_project_categories:  true   # enables categorization of projects into multiple categories
->>>>>>> master-update
 enable_medium_zoom:         true   # enables image zoom feature (as on medium.com)
 enable_progressbar:         true   # enables a horizontal progress bar linked to the vertical scroll position
 
@@ -477,24 +371,8 @@ enable_progressbar:         true   # enables a horizontal progress bar linked to
 # Library versions
 # -----------------------------------------------------------------------------
 
-<<<<<<< HEAD
-academicons:
-  version: "1.9.1"
-  integrity: "sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg="
-bootstrap:
-  version: "4.6.1"
-  integrity:
-    css: "sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY="
-    js: "sha256-fgLAgv7fyCGopR/gBNq2iW3ZKIdqIcyshnUULC4vex8="
-bootstrap-table:
-  version: "1.21.4"
-fontawesome:
-  version: "6.4.0"
-  integrity: "sha256-HtsXJanqjKTc8vVQjO4YMhiqFoXkfBsjBWcX91T1jr8="
-=======
 bootstrap-table:
   version: "1.22.1"
->>>>>>> master-update
 jquery:
   version: "3.6.0"
   integrity: "sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
