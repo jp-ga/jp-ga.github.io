@@ -2,6 +2,7 @@
 layout: about
 title: about
 permalink: /
+<<<<<<< HEAD
 subtitle: PhD Candidate, University of Chicago
 
 profile:
@@ -9,6 +10,18 @@ profile:
   image: prof_pic2.jpg
   image_circular: true # crops the image to make it circular
   address: 
+=======
+subtitle: PhD Candidate, The University of Chicago
+
+profile:
+  align: right
+  image: prof_pic.jpg
+  image_circular: true # crops the image to make it circular
+#  more_info: >
+#    <p>555 your office number</p>
+#    <p>123 your address street</p>
+#    <p>Your City, State 12345</p>
+>>>>>>> master-update
 
 news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts

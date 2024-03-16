@@ -3,7 +3,10 @@ group :jekyll_plugins do
     gem 'classifier-reborn'
     gem 'jekyll'
     gem 'jekyll-archives'
+<<<<<<< HEAD
     gem 'jekyll-diagrams'
+=======
+>>>>>>> master-update
     gem 'jekyll-email-protect'
     gem 'jekyll-feed'
     gem 'jekyll-get-json'

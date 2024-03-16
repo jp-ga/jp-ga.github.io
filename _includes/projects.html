@@ -10,20 +10,36 @@
         {%- if project.img %}
         {%- include figure.html
           path=project.img
+<<<<<<< HEAD
           alt="project thumbnail" -%}
         {%- endif %}
         <div class="card-body">
           <h2 class="card-title text-lowercase">{{ project.title }}</h2>
+=======
+          sizes = "250px"
+          alt="project thumbnail" -%}
+        {%- endif %}
+        <div class="card-body">
+          <h2 class="card-title">{{ project.title }}</h2>
+>>>>>>> master-update
           <p class="card-text">{{ project.description }}</p>
           <div class="row ml-1 mr-1 p-0">
             {%- if project.github -%}
             <div class="github-icon">
               <div class="icon" data-toggle="tooltip" title="Code Repository">
+<<<<<<< HEAD
                 <a href="{{ project.github }}"><i class="fab fa-github gh-icon"></i></a>
               </div>
               {%- if project.github_stars -%}
               <span class="stars" data-toggle="tooltip" title="GitHub Stars">
                 <i class="fas fa-star"></i>
+=======
+                <a href="{{ project.github }}"><i class="fa-brands fa-github gh-icon"></i></a>
+              </div>
+              {%- if project.github_stars -%}
+              <span class="stars" data-toggle="tooltip" title="GitHub Stars">
+                <i class="fa-solid fa-star"></i>
+>>>>>>> master-update
                 <span id="{{ project.github_stars }}-stars"></span>
               </span>
               {%- endif %}

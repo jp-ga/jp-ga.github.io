@@ -6,6 +6,7 @@
   --global-bg-color: #{$white-color};
   --global-code-bg-color: #{$code-bg-color-light};
   --global-text-color: #{$black-color};
+<<<<<<< HEAD
   --global-text-color-light: #{$grey-color};
   --global-theme-color: #{$blue-color};
   --global-hover-color: #{$blue-color};
@@ -14,6 +15,16 @@
   --global-footer-text-color: #{$grey-color-light};
   --global-footer-link-color: #{$white-color};
   --global-distill-app-color: #{$grey-color};
+=======
+  --global-text-color-light: #{$uchicago-dark-grey};
+  --global-theme-color: #{$uchicago-maroon};
+  --global-hover-color: #{$uchicago-maroon};
+  --global-hover-text-color: #{$white-color};
+  --global-footer-bg-color: #{$uchicago-dark-grey};
+  --global-footer-text-color: #{$uchicago-light-grey};
+  --global-footer-link-color: #{$white-color};
+  --global-distill-app-color: #{$uchicago-dark-grey};
+>>>>>>> master-update
   --global-divider-color: rgba(0,0,0,.1);
   --global-card-bg-color: #{$white-color};
 
@@ -48,6 +59,7 @@
 }
 
 html[data-theme='dark'] {
+<<<<<<< HEAD
   --global-bg-color: #{$grey-color-dark};
   --global-code-bg-color: #{$code-bg-color-dark};
   --global-text-color: #{$grey-color-light};
@@ -61,6 +73,21 @@ html[data-theme='dark'] {
   --global-distill-app-color: #{$grey-color-light};
   --global-divider-color: #424246;
   --global-card-bg-color: #{$grey-900};
+=======
+  --global-bg-color: #{$uchicago-dark-grey};
+  --global-code-bg-color: #{$code-bg-color-dark};
+  --global-text-color: #{$uchicago-light-grey};
+  --global-text-color-light: #{$uchicago-light-grey};
+  --global-theme-color: #{$uchicago-maroon};
+  --global-hover-color: #{$uchicago-maroon};
+  --global-hover-text-color: #{$white-color};
+  --global-footer-bg-color: #{$uchicago-light-grey};
+  --global-footer-text-color: #{$uchicago-dark-grey};
+  --global-footer-link-color: #{$black-color};
+  --global-distill-app-color: #{$uchicago-light-grey};
+  --global-divider-color: #424246;
+  --global-card-bg-color: #{$uchicago-dark-grey};
+>>>>>>> master-update
 
   --global-tip-block: #42b983;
   --global-tip-block-bg: #e2f5ec;
