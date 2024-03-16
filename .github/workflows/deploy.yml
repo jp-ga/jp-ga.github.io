@@ -3,10 +3,18 @@ name: deploy
 on:
   push:
     branches:
+<<<<<<< HEAD
+=======
+      - master-update
+>>>>>>> master-update
       - master
       - main
   pull_request:
     branches:
+<<<<<<< HEAD
+=======
+      - master-update
+>>>>>>> master-update
       - master
       - main
   workflow_dispatch:
@@ -26,12 +34,29 @@ jobs:
       with:
         ruby-version: '3.2.2'
         bundler-cache: true
+<<<<<<< HEAD
+=======
+    - name: Update _config.yml ⚙️
+      uses: fjogeleit/yaml-update-action@v0.13.1
+      with:
+        commitChange: false
+        valueFile: '_config.yml'
+        propertyPath: 'giscus.repo'
+        value: ${{ github.repository }}
+>>>>>>> master-update
     - name: Install and Build 🔧
       run: |
         pip3 install --upgrade jupyter
         npm install -g mermaid.cli
+<<<<<<< HEAD
         export JEKYLL_ENV=production
         bundle exec jekyll build
+=======
+        npm install -g purgecss
+        export JEKYLL_ENV=production
+        bundle exec jekyll build --lsi
+        purgecss -c purgecss.config.js
+>>>>>>> master-update
     - name: Deploy 🚀
       if: github.event_name != 'pull_request'
       uses: JamesIves/github-pages-deploy-action@v4

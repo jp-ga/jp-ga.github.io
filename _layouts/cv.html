@@ -6,7 +6,11 @@ layout: default
 <div class="post">
 
   <header class="post-header">
+<<<<<<< HEAD
     <h1 class="post-title">{{ page.title }} {% if page.cv_pdf %}<a href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}" target="_blank" rel="noopener noreferrer" class="float-right"><i class="fas fa-file-pdf"></i></a>{% endif %}</h1>
+=======
+    <h1 class="post-title">{{ page.title }} {% if page.cv_pdf %}<a href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}" target="_blank" rel="noopener noreferrer" class="float-right"><i class="fa-solid fa-file-pdf"></i></a>{% endif %}</h1>
+>>>>>>> master-update
       {% if page.description %}<p class="post-description">{{ page.description }}</p>{% endif %}
   </header>
 
@@ -41,7 +45,11 @@ layout: default
 <div class="post">
 
   <header class="post-header">
+<<<<<<< HEAD
     <h1 class="post-title">{{ page.title }} {% if page.cv_pdf %}<a href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}" target="_blank" rel="noopener noreferrer" class="float-right"><i class="fas fa-file-pdf"></i></a>{% endif %}</h1>
+=======
+    <h1 class="post-title">{{ page.title }} {% if page.cv_pdf %}<a href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}" target="_blank" rel="noopener noreferrer" class="float-right"><i class="fa-solid fa-file-pdf"></i></a>{% endif %}</h1>
+>>>>>>> master-update
     {% if page.description %}<p class="post-description">{{ page.description }}</p>{% endif %}
   </header>
 
@@ -83,6 +91,11 @@ layout: default
               {% include resume/interests.html %}
             {% when "certificates" %}
               {% include resume/certificates.html %}
+<<<<<<< HEAD
+=======
+            {% when "references" %}
+              {% include resume/references.html %}
+>>>>>>> master-update
             {% else %}
 
           {% endcase %}
@@ -93,4 +106,8 @@ layout: default
   </article>
 
 </div>
+<<<<<<< HEAD
 {% endunless %}
+=======
+{% endunless %}
+>>>>>>> master-update
