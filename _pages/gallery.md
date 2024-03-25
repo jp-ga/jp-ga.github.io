@@ -2,7 +2,7 @@
 layout: page
 title: gallery
 permalink: /gallery/
-description: work in progress :)
+description: work in progress...
 nav: true
 nav_order: 4
 display_categories: []
