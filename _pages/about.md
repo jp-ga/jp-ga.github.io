@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Doctoral Researcher in Physics at the University of Chicago
+subtitle: PhD Candidate in Physics at the University of Chicago
 
 profile:
   align: right
